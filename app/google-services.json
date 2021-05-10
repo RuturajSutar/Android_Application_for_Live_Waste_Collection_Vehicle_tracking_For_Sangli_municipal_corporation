@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87777280266",
+    "firebase_url": "https://smc-waste-management-app.firebaseio.com",
+    "project_id": "smc-waste-management-app",
+    "storage_bucket": "smc-waste-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87777280266:android:39a220503eaf97c59dfaf3",
+        "android_client_info": {
+          "package_name": "com.sanglimahapalika.smcwastemanagementappandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87777280266-50n1igafp09pllde8ie8h6ak9e4hvjur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanglimahapalika.smcwastemanagementappandroid",
+            "certificate_hash": "8f4a3f5a79c636dfe8b3ec14d5096b600a1f55ec"
+          }
+        },
+        {
+          "client_id": "87777280266-d85pc2bef6etcl7q612tlokhdkcput5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZkpMT9XUteu_Z6944Grh8NZxA-tJBpK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87777280266-d85pc2bef6etcl7q612tlokhdkcput5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

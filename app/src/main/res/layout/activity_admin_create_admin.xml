@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeopleLoginPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></Space>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Admin Register"
+                android:layout_gravity="end"
+                android:textColor="#ffffff"
+                android:background="#E26940" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Space>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:drawableRight="@drawable/myname"
+                    android:paddingLeft="5dp"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></Space>
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:drawableRight="@drawable/adminmail"
+                    android:paddingLeft="5dp"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></Space>
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"
+                    android:drawableRight="@drawable/mymobile"
+                    android:paddingLeft="5dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></Space>
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Address"
+                    android:inputType="text"
+                    android:drawableRight="@drawable/myaddress"
+                    android:paddingLeft="5dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></Space>
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Aadhar Card Number"
+                    android:inputType="number"
+                    android:drawableRight="@drawable/myaadhar"
+                    android:paddingLeft="5dp"/>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></Space>
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:drawableRight="@drawable/mystudentpassword"
+                    android:paddingLeft="5dp"/>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></Space>
+                <CheckBox
+                    android:id="@+id/showpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Show Password"
+                    android:textColor="#000000"></CheckBox>
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Space>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Create"
+                android:layout_gravity="start"
+                android:textColor="#ffffff"
+                android:background="#E26940" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"></Space>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

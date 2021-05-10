@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SMC Waste Management App</string>
+    <string name="title_activity_complaint_location">Map</string>
+</resources>
